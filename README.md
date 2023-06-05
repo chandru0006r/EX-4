@@ -2,7 +2,7 @@
 
 # EXP: 4
 
-# DATE:29-03-2023
+# DATE:30-03-2023
 
 # AIM:
 To write a python program for implementing Address Resolution Protocol(ARP).
@@ -22,7 +22,7 @@ stored.
 4. Read the IP address which is send by the client.
 5. Map the IP address with its MAC address and return the MAC address to client.
 # PROGRAM:
-# CLIENT:
+## CLIENT:
 ```python3
 import socket
 s=socket.socket()
@@ -37,7 +37,7 @@ try:
 except KeyError:
   c.send("Not Found".encode())
   ```
-# SERVER:
+## SERVER:
 ```python3
 import socket
 s=socket.socket()
